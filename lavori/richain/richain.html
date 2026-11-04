@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Richain — Protocollo di Rendita Decentralizzato</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Collegamento al file CSS esterno -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+        <nav class="nav" id="nav">
+            <a href="#" class="nav-brand">
+                <svg viewBox="0 0 100 100">
+                    <defs>
+                        <linearGradient id="navGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#06B6D4"/><stop offset="100%" stop-color="#06B6D4"/>
+                        </linearGradient>
+                    </defs>
+                    <circle cx="50" cy="50" r="46" fill="none" stroke="url(#navGrad)" stroke-width="2" opacity="0.6"/>
+                    <path d="M 36 33 A 15 15 0 1 1 36 63 L 36 50 L 62 36 L 62 54" fill="none" stroke="url(#navGrad)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>Richain</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#how">Come</a></li>
+                <li><a href="#simulate">Simula</a></li>
+                <li><a href="#markets">Mercati</a></li>
+                <li><a href="#vision">Visione</a></li>
+                <li><a href="#" class="btn-nav">Scarica l'App</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+        </nav>
+
+        <section class="hero">
+            <div class="hero-content">
+                <div class="hero-badge"><span class="dot"></span> Live su Testnet</div>
+                <h1>Richain</h1>
+                <p class="slogan">Il tuo conto on-chain che lavora mentre dormi</p>
+                <p class="subtitle">Guadagna rendita DeFi + fino al 3% di APY base target. Da $1 a $100M. Nessun privilegio. Imposta, deposita, guadagna. Automaticamente. 24/7 on-chain.</p>
+                <div class="hero-cta">
+                    <a href="#simulate" class="btn-primary">Inizia a Guadagnare Ora</a>
+                    <a href="#how" class="btn-outline-dark">Esplora il Protocollo</a>
+                </div>
+            </div>
+        </section>
+
+        <div class="data-strip">
+            <div class="data-cell"><div class="data-label">Valore Totale Bloccato</div><div class="data-value" id="tvl">$1.247.832</div><div class="data-sub">Live</div></div>
+            <div class="data-cell"><div class="data-label">APY Base Target</div><div class="data-value">Fino al 3,00%</div><div class="data-sub">Finanziato dal Tesoro</div></div>
+            <div class="data-cell"><div class="data-label">Copertura del Tesoro</div><div class="data-value">T-Bill USA</div><div class="data-sub">Regolamentati</div></div>
+            <div class="data-cell"><div class="data-label">Pool Bonus</div><div class="data-value" id="bonus">$12.478</div><div class="data-sub">Egualitario</div></div>
+        </div>
+
+        <div class="tv-ticker-wrap">
+            <tv-ticker-tape symbols="BITSTAMP:BTCUSD,BITSTAMP:ETHUSD,CMCMARKETS:GOLD,CRYPTOCAP:SOL" line-chart-type="Baseline" hover-type="chart" theme="dark"></tv-ticker-tape>
+        </div>
+
+        <section class="section" id="how" style="border-top: 1px solid #333; padding-top: 100px;">
+            <div style="text-align:center;"><span class="section-tag reveal">Protocollo</span></div>
+            <h2 class="section-title reveal">Come Funziona Richain</h2>
+            <p class="section-desc reveal">Deposita stablecoin o crypto. Guadagna rendita DeFi più un APY base target fino al 3%, finanziato dal tesoro. Una fee dell'1% sostiene il protocollo.</p>
+            <div class="how-layout reveal">
+                <div class="how-left">
+                    <div class="card"><h3>1. deposit()</h3><p>Connetti il tuo wallet in sicurezza. Deposita stablecoin o principali asset crypto. Ricevi rToken che rappresentano la tua quota del vault in tempo reale.</p></div>
+                    <div class="card"><h3>2. yield_strategy()</h3><p>Le stablecoin vengono allocate automaticamente in Treasury Bill USA tokenizzati — il debito sovrano più sicuro al mondo. Gli asset crypto vengono impiegati in protocolli DeFi selezionati e collaudati per un rendimento ottimale.</p></div>
+                    <div class="card"><h3>3. dual_reward()</h3><p>Mantieni il 100% della rendita DeFi. In aggiunta, il tesoro paga un APY base target fino al 3%. Due fonti di reddito indipendenti, un solo deposito. Nessun compromesso.</p></div>
+                    <div class="card"><h3>4. egalitarian_bonus()</h3><p>Quando il surplus del tesoro supera il 120%, il profitto extra viene diviso equamente tra tutti i depositanti. La dimensione del tuo deposito non conta — ricevi lo stesso bonus di tutti gli altri.</p></div>
+                </div>
+                <div class="how-right">
+                    <div class="tradingview-widget-container" style="width:100%; height:100%;">
+                        <div class="tradingview-widget-container__widget"></div>
+                        <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/" rel="noopener nofollow" target="_blank"><span class="blue-text">World markets</span></a><span class="trademark"> by TradingView</span></div>
+                        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+                            {
+                                "colorTheme": "light",
+                                "dateRange": "12M",
+                                "locale": "it",
+                                "largeChartUrl": "",
+                                "isTransparent": true,
+                                "showFloatingTooltip": true,
+                                "plotLineColorGrowing": "rgba(41, 98, 255, 1)",
+                                "plotLineColorFalling": "rgba(41, 98, 255, 1)",
+                                "gridLineColor": "rgba(240, 243, 250, 0)",
+                                "scaleFontColor": "#0F0F0F",
+                                "belowLineFillColorGrowing": "rgba(41, 98, 255, 0.12)",
+                                "belowLineFillColorFalling": "rgba(41, 98, 255, 0.12)",
+                                "belowLineFillColorGrowingBottom": "rgba(41, 98, 255, 0)",
+                                "belowLineFillColorFallingBottom": "rgba(41, 98, 255, 0)",
+                                "symbolActiveColor": "rgba(41, 98, 255, 0.12)",
+                                "tabs": [
+                                    {
+                                        "title": "Indici",
+                                        "symbols": [
+                                            { "s": "FRED:TREASURY", "d": "", "logo": { "style": "single", "logoid": "country/US" } },
+                                            { "s": "BITSTAMP:BTCUSD", "d": "", "logo": { "style": "single", "logoid": "crypto/XTVCBTC" } }
+                                        ],
+                                        "originalTitle": "Indici"
+                                    }
+                                ],
+                                "support_host": "https://www.tradingview.com",
+                                "backgroundColor": "#0f0f0f",
+                                "width": "100%",
+                                "height": "100%",
+                                "showSymbolLogo": true,
+                                "showChart": true
+                            }
+                        </script>
+                    </div>
+                </div>
+            </div>
+            <div class="why-richain-wrap reveal">
+                <div class="why-richain-item">
+                    <h4>Sicurezza dei Treasury USA</h4>
+                    <p>I tuoi depositi in stablecoin sono coperti da Treasury Bill USA tokenizzati, l'asset sovrano più sicuro al mondo. Goditi un rendimento prevedibile che non dipende dalle oscillazioni del mercato crypto.</p>
+                </div>
+                <div class="why-richain-item">
+                    <h4>Raddoppia il Tuo Reddito</h4>
+                    <p>Mantieni tutta la rendita DeFi del tuo crypto. In aggiunta, il tesoro finanzia un APY base target fino al 3%. Due fonti indipendenti di reddito passivo, che lavorano simultaneamente.</p>
+                </div>
+                <div class="why-richain-item">
+                    <h4>Ricompense Equa, Senza Balene</h4>
+                    <p>Quando il tesoro supera le aspettative, i bonus vengono divisi equamente tra tutti i depositanti. Che tu abbia depositato $100 o $1.000.000, ricevi lo stesso bonus. Nessun trattamento speciale.</p>
+                </div>
+                <div class="why-richain-item">
+                    <h4>Radicalmente Trasparente</h4>
+                    <p>Tutte le strategie sono eseguite on-chain tramite smart contract verificati. Nessun intermediario, nessuna fee nascosta. L'APY target e la salute del tesoro sono sempre verificabili.</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="treasury-notice">
+            L'APY base target è finanziato dal tesoro del protocollo e può variare in base alla salute del tesoro. <a href="#how">Scopri di più</a>
+        </div>
+
+        <section class="section" id="simulate">
+            <div style="text-align:center;"><span class="section-tag reveal">Simula</span></div>
+            <h2 class="section-title reveal">Terminale di Rendimento</h2>
+            <p class="section-desc reveal">Simula il tuo deposito da $1 a $100M. Aggiungi un piano mensile e vedi i guadagni previsti con rendita DeFi più APY base target.</p>
+            <div class="sim-center reveal">
+                <div class="terminal-box">
+                    <div class="terminal-header">
+                        <div class="terminal-dot red"></div><div class="terminal-dot yellow"></div><div class="terminal-dot green"></div>
+                        <span class="terminal-title">richain_sim — bash</span>
+                    </div>
+                    <div class="terminal-body">
+                        <div class="prompt-line">./simulatore_rendimento --interattivo</div>
+                        <div style="color:#666;margin-bottom:8px;">Inizializzazione... Rendita DeFi: 3-6% | APY Base Target: fino al 3,00%</div>
+                        <div><span style="color:#999;">$ imposta importo deposito ($1 – $100.000.000):</span></div>
+                        <div class="amount-input-wrap">
+                            <input type="text" class="amount-input" id="depInput" value="50000" maxlength="12">
+                        </div>
+                        <div class="sim-row">
+                            <span style="color: var(--cyan);">contributo_mensile (PAC) $</span>
+                            <input type="text" class="dca-input" id="dcaInput" value="0" maxlength="8">
+                        </div>
+                        <div class="sim-row"><span>deposito</span><span class="val" id="sDep">$50.000</span></div>
+                        <div class="sim-row"><span>rendita_defi (stimata 4%)</span><span class="val" id="sDeFi">$2.000</span></div>
+                        <div class="sim-row"><span>apy_base_target (fino al 3%)</span><span class="val" id="sBase">$1.500</span></div>
+                        <div class="sim-row"><span>fee_protocollo (1%)</span><span class="val" style="color:#666;">$500</span></div>
+                        <div class="sim-row"><span>bonus_egualitario (stimato)</span><span class="val" id="sBonus">$420</span></div>
+                        <div class="sim-row total"><span>totale_dopo_1_anno</span><span class="val" id="sTotal">$3.920</span></div>
+                    </div>
+                </div>
+                <div class="yield-summary reveal">
+                    <div class="yield-summary-item">
+                        <div class="yield-summary-label">Guadagno Netto</div>
+                        <div class="yield-summary-value net-gain" id="netGain">$3.420</div>
+                    </div>
+                    <div class="yield-summary-divider"></div>
+                    <div class="yield-summary-item">
+                        <div class="yield-summary-label">Ritorno Totale</div>
+                        <div class="yield-summary-value" id="totalReturn">$53.420</div>
+                    </div>
+                    <div class="yield-summary-divider"></div>
+                    <div class="yield-summary-item">
+                        <div class="yield-summary-label">APY Effettivo</div>
+                        <div class="yield-summary-value net-gain" id="effectiveApy">7,84%</div>
+                    </div>
+                </div>
+                <div class="sim-note">* Le proiezioni si basano sui rendimenti DeFi attuali e presuppongono il pieno APY base target del 3%. I tassi effettivi possono variare con la salute del tesoro. Le performance passate non garantiscono risultati futuri.</div>
+            </div>
+        </section>
+
+        <section class="section" id="markets">
+            <div style="text-align:center;"><span class="section-tag reveal">Mercati</span></div>
+            <h2 class="section-title reveal">Dati di Mercato in Tempo Reale</h2>
+            <p class="section-desc reveal">Monitora prezzi, trend e volumi in tempo reale su tutto il mercato crypto, con la tecnologia di TradingView.</p>
+            <div class="market-data-wrap reveal" style="height: 600px;">
+                <div class="tradingview-widget-container" style="height:100%;">
+                    <div class="tradingview-widget-container__widget"></div>
+                    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/cryptocurrencies/prices-all/" rel="noopener nofollow" target="_blank"><span class="blue-text">Crypto markets</span></a><span class="trademark"> by TradingView</span></div>
+                    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js" async>
+                        {
+                            "defaultColumn": "overview",
+                            "screener_type": "crypto_mkt",
+                            "displayCurrency": "USD",
+                            "colorTheme": "light",
+                            "isTransparent": false,
+                            "locale": "it",
+                            "width": "100%",
+                            "height": "100%"
+                        }
+                    </script>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="vision" style="text-align:center;">
+            <div style="text-align:center;"><span class="section-tag reveal">Visione</span></div>
+            <h2 class="section-title reveal">Costruito per l'Economia On-Chain</h2>
+            <p class="section-desc reveal">Richain è il primo protocollo a combinare la rendita dei Treasury istituzionali con l'accessibilità della DeFi — e a ricompensare ogni partecipante allo stesso modo, non solo i wallet più grandi.</p>
+            <div class="pill-group reveal">
+                <span class="pill">Contratti Verificati</span>
+                <span class="pill">Ospitato su IPFS</span>
+                <span class="pill">Partner Regolamentati</span>
+                <span class="pill">Liquidità Istantanea</span>
+                <span class="pill">Bonus Egualitario</span>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <h2 class="reveal">Pronto a guadagnare senza compromessi?</h2>
+            <p class="reveal">Nessun minimo. Nessun vantaggio per le balene. Solo rendita pura e trasparente.</p>
+            <a href="#" class="btn-primary reveal">SCARICA ORA</a>
+        </section>
+
+        <footer>
+            <svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="46" fill="none" stroke="#06B6D4" stroke-width="2" opacity="0.3"/><path d="M 36 33 A 15 15 0 1 1 36 63 L 36 50 L 62 36 L 62 54" fill="none" stroke="#06B6D4" stroke-width="4"/></svg>
+            <p>Richain Protocol &copy; 2026 &middot; Rendita Reale da Treasury + Bonus Egualitario</p>
+        </footer>
+    </div>
+
+    <!-- Script esterni di TradingView -->
+    <script type="module" src="https://widgets.tradingview-widget.com/w/en/tv-ticker-tape.js"></script>
+    
+    <!-- Collegamento al file JS esterno -->
+    <script src="script.js"></script>
+</body>
+</html>
