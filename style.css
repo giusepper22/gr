@@ -477,10 +477,10 @@ img { display: block; max-width: 100%; }
 
 
 /* ========================================================
-   RESPONSIVE (TABLET E SMARTPHONE)
+   DESIGN MOBILE (STILE APPLE)
    ======================================================== */
 
-/* Tablet */
+/* Tablet (adattamento intermedio) */
 @media (max-width: 860px) {
   .bento { grid-template-columns: repeat(2, 1fr); }
   .bento-card.span-2 { grid-column: span 2; }
@@ -488,136 +488,182 @@ img { display: block; max-width: 100%; }
   .bento-card.row-span-2 { grid-row: span 1; }
 }
 
-/* Smartphone (Mobile Comfort) */
+/* iPhone e Smartphone (Comfort estremo) */
 @media (max-width: 600px) {
-  /* Margini laterali più ampi per non far toccare i bordi */
+  
+  /* 1. Margini laterali molto più ampi (stile Apple, 24px è il minimo) */
   .container { 
     padding: 0 24px; 
   }
   
-  .nav-logo { font-size: 1rem; }
-  .nav-cta { padding: 8px 14px; font-size: 0.8rem; }
+  .nav-inner {
+    padding: 0 24px;
+    height: 64px;
+  }
+
+  .nav-logo { 
+    font-size: 1.1rem; 
+  }
   
-  /* Spazio verticale generoso per l'hero */
+  .nav-cta { 
+    padding: 8px 16px; 
+    font-size: 0.85rem; 
+  }
+  
+  /* 2. HERO: Tanto respiro e titoli grandi */
   .hero { 
     min-height: auto; 
-    padding: 64px 24px 80px; 
+    padding: 120px 24px 80px; 
   }
   
   .hero-badge {
-    margin-bottom: 20px;
-    font-size: 0.7rem;
-    padding: 6px 14px;
+    margin-bottom: 28px;
+    font-size: 0.8rem;
+    padding: 8px 18px;
   }
 
   .hero h1 { 
-    font-size: clamp(2rem, 8vw, 2.5rem); 
+    font-size: 2.6rem; 
     margin-bottom: 24px; 
+    line-height: 1.1;
   }
   
   .hero p { 
-    font-size: 1rem; 
-    margin-bottom: 32px; 
+    font-size: 1.05rem; 
+    margin-bottom: 40px; 
+    line-height: 1.5;
+    color: #aaa;
   }
   
   .hero-actions { 
     width: 100%; 
     flex-direction: column; 
-    gap: 14px; 
+    gap: 16px; 
   }
   
   .hero-actions .btn-primary, 
   .hero-actions .btn-ghost { 
     width: 100%; 
     justify-content: center; 
-    padding: 16px; 
-    font-size: 1rem;
+    padding: 18px; 
+    font-size: 1.05rem;
+    border-radius: 14px; /* Angoli morbidi */
   }
   
-  /* Sezioni: più spazio tra di loro e titoli leggibili */
+  /* 3. SEZIONI: Molto spazio tra loro per far respirare la pagina */
   .section { 
-    padding: 56px 0; 
+    padding: 80px 0; 
   }
   
   .section-header {
-    margin-bottom: 32px;
+    margin-bottom: 40px;
+  }
+
+  .section-label {
+    font-size: 0.8rem;
+    margin-bottom: 14px;
   }
 
   .section-title { 
-    font-size: 1.8rem; 
-    line-height: 1.25;
+    font-size: 2.2rem; 
+    line-height: 1.15;
+    letter-spacing: -0.02em;
   }
   
   .section-note { 
-    font-size: 0.85rem; 
-    margin-top: 16px;
-    padding-left: 12px;
+    font-size: 0.9rem; 
+    margin-top: 20px;
+    padding-left: 16px;
+    line-height: 1.6;
+    color: #999;
   }
   
-  /* Card del portfolio più comode e distanziate */
+  /* 4. CARD PORTFOLIO: Grandi, rotonde e con molto padding interno */
   .bento { 
     grid-template-columns: 1fr; 
-    gap: 20px; 
+    gap: 24px; 
   }
   
   .bento-card { 
-    min-height: 260px; /* Più alte per contenere il testo senza schiacciarlo */
-    padding: 24px; 
+    min-height: 320px; 
+    padding: 32px 28px; 
+    border-radius: 24px; /* Stile card iOS */
   }
   
   .bento-card.span-2 { 
     grid-column: span 1; 
   }
   
+  .bento-tag {
+    padding: 6px 14px;
+    font-size: 0.75rem;
+    margin-bottom: 16px;
+  }
+
+  .live-badge {
+    font-size: 0.75rem;
+    padding: 6px 12px;
+  }
+
   .bento-card h3 { 
-    font-size: 1.25rem; 
-    margin-bottom: 8px;
+    font-size: 1.4rem; 
+    margin-bottom: 12px;
+    line-height: 1.3;
   }
   
   .bento-card p { 
-    font-size: 0.9rem; 
+    font-size: 0.95rem; 
     line-height: 1.6;
+    color: #bbb;
   }
   
+  /* Nasconde la freccia che su mobile non serve */
   .bento-card .arrow { 
     display: none; 
   }
   
-  /* Servizi: più spaziosi */
+  /* 5. SERVIZI: Impilati, con icone grandi e molto spazio */
   .services-grid {
-    gap: 16px;
+    gap: 20px;
   }
 
   .service-item { 
-    padding: 24px; 
-    gap: 16px; 
+    padding: 32px 28px; 
+    gap: 24px; 
+    border-radius: 24px;
+    flex-direction: column; /* Icona sopra, testo sotto */
   }
   
   .service-icon { 
-    width: 48px; 
-    height: 48px; 
+    width: 64px; 
+    height: 64px; 
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.06);
   }
   
   .service-icon svg { 
-    width: 22px; 
-    height: 22px; 
+    width: 32px; 
+    height: 32px; 
   }
 
   .service-item h3 {
-    font-size: 1.05rem;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
   }
 
   .service-item p {
-    font-size: 0.9rem;
+    font-size: 1rem;
     line-height: 1.6;
+    color: #aaa;
   }
   
-  /* Footer */
+  /* 6. FOOTER */
   .footer {
-    padding: 40px 0 32px;
+    padding: 60px 0 40px;
   }
   .footer p {
-    font-size: 0.85rem;
+    font-size: 0.9rem;
+    line-height: 1.6;
   }
 }
 
