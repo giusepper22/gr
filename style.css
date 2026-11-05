@@ -491,13 +491,19 @@ img { display: block; max-width: 100%; }
 /* iPhone e Smartphone */
 @media (max-width: 600px) {
   
-  /* 1. Sicurezza laterale: 20px per non far toccare mai i bordi fisici del telefono */
+  /* 1. Margini laterali di sicurezza portati a 28px (il "golden standard" per iOS) */
   .container { 
-    padding: 0 20px; 
+    padding-left: 28px; 
+    padding-right: 28px; 
   }
 
-  /* 2. Navbar: Nascondiamo i link secondari (Lavori, Servizi) 
-     perché su mobile rubano spazio vitale. Teniamo solo Logo e Bottone. */
+  /* Manteniamo il giusto spazio verticale per le sezioni */
+  .section { 
+    padding-top: 56px; 
+    padding-bottom: 56px; 
+  }
+
+  /* Navbar: nascondiamo i link per non affollare */
   .nav-links { 
     display: none !important; 
   }
@@ -511,13 +517,13 @@ img { display: block; max-width: 100%; }
     font-size: 0.8rem;
   }
 
-  /* 3. Hero: Testo scalato, bello grande ma senza esplodere */
+  /* HERO (Home) */
   .hero { 
-    padding: 60px 20px; 
+    padding: 60px 0; /* Tolto il padding laterale perché lo gestisce il container */
   }
 
   .hero h1 {
-    font-size: 2.2rem; /* Dimensione perfetta per iPhone */
+    font-size: 2.2rem;
     line-height: 1.2;
   }
 
@@ -540,11 +546,7 @@ img { display: block; max-width: 100%; }
     font-size: 1rem;
   }
 
-  /* 4. Sezioni: Più spazio verticale, testo allineato a sinistra */
-  .section { 
-    padding: 48px 0; 
-  }
-
+  /* SEZIONE LAVORI (Portfolio) */
   .section-header {
     text-align: left;
     margin-bottom: 32px;
@@ -556,7 +558,7 @@ img { display: block; max-width: 100%; }
   }
 
   .section-title {
-    font-size: 1.8rem; /* Titolo meno aggressivo dello screenshot */
+    font-size: 1.8rem;
     line-height: 1.3;
   }
 
@@ -567,16 +569,16 @@ img { display: block; max-width: 100%; }
     padding-left: 12px;
   }
 
-  /* 5. Card Portfolio: Perfette, larghe, non gommose */
+  /* LE CARD: Più respiro interno ed esterno */
   .bento { 
     grid-template-columns: 1fr; 
-    gap: 16px; 
+    gap: 20px; /* Più distanza tra le card */
   }
 
   .bento-card { 
-    min-height: 240px; /* Altezza fissa comoda */
-    padding: 24px 20px; /* Spazio interno ottimizzato */
-    border-radius: 16px;
+    min-height: 240px; 
+    padding: 32px 24px; /* 32px sopra/sotto, 24px a destra/sinistra (il testo non tocca i bordi) */
+    border-radius: 20px;
   }
 
   .bento-card.span-2 { 
@@ -585,59 +587,62 @@ img { display: block; max-width: 100%; }
 
   .bento-card h3 {
     font-size: 1.25rem;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
   }
 
   .bento-card p {
     font-size: 0.9rem;
-    line-height: 1.5;
+    line-height: 1.6; /* Interlinea più ariosa */
     color: #ccc;
   }
 
   .bento-tag {
     font-size: 0.7rem;
-    padding: 4px 10px;
+    padding: 6px 12px;
+    margin-bottom: 16px;
   }
 
   .live-badge {
     font-size: 0.7rem;
-    padding: 4px 10px;
+    padding: 6px 12px;
     margin-left: 4px;
   }
 
   .bento-card .arrow {
-    display: none; /* Inutile su mobile */
+    display: none; 
   }
 
-  /* 6. Servizi: Icona sopra, testo sotto, molto pulito */
+  /* SEZIONE SERVIZI */
   .services-grid {
     gap: 16px;
   }
 
   .service-item {
     flex-direction: column;
-    padding: 24px;
-    gap: 16px;
-    border-radius: 12px;
+    padding: 32px 24px; /* Più spazio interno */
+    gap: 20px;
+    border-radius: 16px;
   }
 
   .service-icon {
-    width: 48px;
-    height: 48px;
+    width: 56px;
+    height: 56px;
+    border-radius: 12px;
   }
 
   .service-icon svg {
-    width: 24px;
-    height: 24px;
+    width: 28px;
+    height: 28px;
   }
 
   .service-item h3 {
-    font-size: 1.1rem;
+    font-size: 1.15rem;
+    margin-bottom: 8px;
   }
 
   .service-item p {
     font-size: 0.9rem;
-    line-height: 1.5;
+    line-height: 1.6;
   }
 }
 
