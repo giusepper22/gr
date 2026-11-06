@@ -491,10 +491,10 @@ img { display: block; max-width: 100%; }
 /* iPhone e Smartphone */
 @media (max-width: 600px) {
   
-  /* 1. Margini laterali di sicurezza portati a 28px (il "golden standard" per iOS) */
+  /* 1. Margini laterali di sicurezza (28px) per far respirare TUTTO */
   .container { 
-    padding-left: 28px; 
-    padding-right: 28px; 
+    padding-left: 24px; 
+    padding-right: 24px; 
   }
 
   /* Manteniamo il giusto spazio verticale per le sezioni */
@@ -503,7 +503,7 @@ img { display: block; max-width: 100%; }
     padding-bottom: 56px; 
   }
 
-  /* Navbar: nascondiamo i link per non affollare */
+  /* Navbar */
   .nav-links { 
     display: none !important; 
   }
@@ -517,19 +517,38 @@ img { display: block; max-width: 100%; }
     font-size: 0.8rem;
   }
 
-  /* HERO (Home) */
+  /* ==========================================
+     2. HOME (HERO) - Ora identica al Portfolio
+     ========================================== */
   .hero { 
-    padding: 60px 0; /* Tolto il padding laterale perché lo gestisce il container */
+    /* min-height auto toglie l'effetto schermata intera */
+    min-height: auto; 
+    /* Allineiamo il testo a sinistra come nelle altre sezioni */
+    text-align: left; 
+    align-items: flex-start;
+    /* Rimuoviamo il padding orizzontale per non sovrascrivere il .container */
+    padding-left: 0;
+    padding-right: 0;
+    /* Aggiungiamo spazio verticale identico alle altre sezioni */
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+
+  .hero-badge {
+    margin-bottom: 24px;
+    margin-left: 0;
   }
 
   .hero h1 {
-    font-size: 2.2rem;
+    font-size: 2.2rem; /* Dimensione perfetta, non tocca i bordi */
     line-height: 1.2;
+    margin-bottom: 20px;
   }
 
   .hero p {
     font-size: 1rem;
     margin-bottom: 32px;
+    line-height: 1.6;
   }
 
   .hero-actions {
@@ -546,15 +565,12 @@ img { display: block; max-width: 100%; }
     font-size: 1rem;
   }
 
-  /* SEZIONE LAVORI (Portfolio) */
+  /* ==========================================
+     3. SEZIONI LAVORI E SERVIZI
+     ========================================== */
   .section-header {
     text-align: left;
     margin-bottom: 32px;
-  }
-
-  .section-label {
-    font-size: 0.75rem;
-    margin-bottom: 8px;
   }
 
   .section-title {
@@ -562,23 +578,16 @@ img { display: block; max-width: 100%; }
     line-height: 1.3;
   }
 
-  .section-note {
-    font-size: 0.85rem;
-    margin-top: 16px;
-    line-height: 1.5;
-    padding-left: 12px;
-  }
-
-  /* LE CARD: Più respiro interno ed esterno */
+  /* Card del Portfolio */
   .bento { 
     grid-template-columns: 1fr; 
-    gap: 20px; /* Più distanza tra le card */
+    gap: 20px; 
   }
 
   .bento-card { 
     min-height: 240px; 
-    padding: 32px 24px; /* 32px sopra/sotto, 24px a destra/sinistra (il testo non tocca i bordi) */
-    border-radius: 20px;
+    padding: 24px; 
+    border-radius: 16px;
   }
 
   .bento-card.span-2 { 
@@ -587,62 +596,31 @@ img { display: block; max-width: 100%; }
 
   .bento-card h3 {
     font-size: 1.25rem;
-    margin-bottom: 10px;
   }
 
   .bento-card p {
     font-size: 0.9rem;
-    line-height: 1.6; /* Interlinea più ariosa */
-    color: #ccc;
+    line-height: 1.5;
   }
 
-  .bento-tag {
-    font-size: 0.7rem;
-    padding: 6px 12px;
-    margin-bottom: 16px;
-  }
-
-  .live-badge {
-    font-size: 0.7rem;
-    padding: 6px 12px;
-    margin-left: 4px;
-  }
-
-  .bento-card .arrow {
-    display: none; 
-  }
-
-  /* SEZIONE SERVIZI */
+  /* Servizi */
   .services-grid {
     gap: 16px;
   }
 
   .service-item {
     flex-direction: column;
-    padding: 32px 24px; /* Più spazio interno */
-    gap: 20px;
+    padding: 24px;
+    gap: 16px;
     border-radius: 16px;
-  }
-
-  .service-icon {
-    width: 56px;
-    height: 56px;
-    border-radius: 12px;
-  }
-
-  .service-icon svg {
-    width: 28px;
-    height: 28px;
   }
 
   .service-item h3 {
     font-size: 1.15rem;
-    margin-bottom: 8px;
   }
 
   .service-item p {
     font-size: 0.9rem;
-    line-height: 1.6;
   }
 }
 
