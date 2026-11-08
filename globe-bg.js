@@ -1,1 +1,396 @@
-(()=>{var LA="AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADg/wEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADA/v8/AOD//z8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD+///D/////5//AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPAH/j/+//////8PAAAAgB0AAHgAAAAAAH8AAAAAAAAAAAAAAAAAAAAAAAAAAOD//wP8//////8BAACAfx4AAAAAAAAAAP4AAAAAAAAAAAAAAAAAAAAAAAA4+I73//n///////8AAAAAfwAAAAAAAAAAAAAfAAAAAAAAAAAAAAAAAAAAAOAQACDwP4D///////8BAAAAPAQAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAADzAgPP5H8D//////38AAAAAAAAAAAAA4AEAAAD+DwAAAAAAAAAAAAAAAAAAAIC/g7PfBwAA/v////8AAAAAAAAAAADgBwAAwP//PwAA4B8AAAAAAAAAAAAAAAAMAAB8AgAA+P////8AAAAAAAAAAABwAAAA/P//AwAAAAAAAAAAAAAAAAAAAP8Ahvc5OwAA8P///38AAAAAAAAAAAAcAADg////34cHAAcAAAAAAAAAAAAAgN9/xzf8RwAA4P///z8AAAAAAAAAAAAPAB7g//////8fgD8AAAAAAQAAAAAAAO//B3f8/wsA4P///z8AAAAAAAAAAAAPAG////////8f2f8HAAAAAAD4HwAAAAD4H/D4/38A4P///xMAAAAAAPAHAAAAgN//////////////DwAAAAD+///h/4//H+/Bg/8BwP7//w8AAAAAwP8fAAAAj9///////////////88/A+D///////8DB8TPB/4AAP///wAAAAAA8P//AwDjf77/////////////////DwD////////////vh/kPwP//BwAAAAAA/P//H/P//5//////////////////34H8////////////Afw/gP//AQAQAAAA/v8fH////+///////////////////vD///////////9fAPwYgP8PAOA/AAAA/+N/8P//////////////////////QID4///////////Pw/0DAP8HAMAfAACA//F//v////////////////////8/AAP4///////////BBPAHAP4HAAAAAADg//z///////////////////////9/AID///////////8AQ4ABAPwBAAAAAAD8P/7///////////////////////9fAMD//////////z8AwA8AAPgBAAAAAAD+H/7/////////////////////Of8BAID///z//////z8AwD8AAMABAAAAAAD+P/z///////////////////9/wH8AAAD8MwD//////x8AwH8MAAAAAAAAAAD+P2D///////////////////95cAAAAACAAwD8/////38AwP8eAAAAAAAAgAGcH/D//////////////////wEAOAAAAADADgDA/////38AgP8/AAAAAAAAwANAH/T//////////////////wAAfgAAAAAwAAAA//////8PgP8/AAAAAAAAwAFwD/7/////////////////PwAAfwAAAAAGAAAA//////8/wP//AAAAAAAAwAOwA/7/////////////////DwCAPwAAAIAAAAAA/v//////8///BwAAAAAAOAcgcP//////////////////HwAAHwAAAAAAAACA+P//////4///DwAAAAAAOA74/////////////////////wUADwAAAAAAAAAA8P//////4///DwAAAAAAGD///////////////////////wUAAwAAAAAAAAAA8P//////7///FwAAAAAAAB///////////////////////wUAAgAAAAAAAAAA0P//////////DAAAAAAAgOH//////////////////////w0AAAAAAAAAAAAAYP////////8xLAAAAAAAAPz//////////////////////wwAAAAAAAAAAAAAAP7//////38HfgAAAAAAgP///////////////////////wQAAAAAAAAAAAAAAP3///////8HUAAAAAAAAP7/////////////////////fwQAAAAAAAAAAAAAAP////////+XAAAAAAAAAPz///93/D/+////////////PwwAAAAAAAAAAAAAAP////////9/AAAAAAAAAPj//f9j/g/+////////////HwAAAAAAAAAAAAAAAP////////8MAAAAAAAAAPj/+P8B/Mf/////////////DwQAAAAAAAAAAAAAAP///////z8AAAAAAAAAcPzH8/8A8I//////////////Bx4AAAAAAAAAAAAAAP///////x8AAAAAAAAA+H+Aw/8AwA/+//////////9/AA8AAAAAAAAAAAAAAP///////x8AAAAAAAAA+D8Aj//w4R/8//////////8/AAAAAAAAAAAAAAAAAP///////wMAAAAAAAAA+B8wuE/+/z/+/////////98fAAMAAAAAAAAAAAAAAP///////wMAAAAAAAAA+A8wEMf//x/+/////////0cOAAMAAAAAAAAAAAAAAP7//////wEAAAAAAAAA+A8AAM7//x/8/////////wMOAAEAAAAAAAAAAAAAAP7//////wAAAAAAAAAA+AcABob//z/8/////////zccwAEAAAAAAAAAAAAAAPz//////wAAAAAAAAAAQOB/AAQ2/////////////x8c8AEAAAAAAAAAAAAAAPj//////wAAAAAAAAAAQPx/AAAA/////////////w8Y/gEAAAAAAAAAAAAAAPD/////fwAAAAAAAAAA4P8/AAAA/////////////w+EGwAAAAAAAAAAAAAAAMD/////HwAAAAAAAAAA8P9/AACA/////////////x/AAwAAAAAAAAAAAAAAAID/////DwAAAAAAAAAA+P//BwaA/////////////x/AAAAAAAAAAAAAAAAAAID9////BwAAAAAAAAAA/P//D3+E/////////////z9AAAAAAAAAAAAAAAAAAAD5////BwAAAAAAAAAA/P//f////////////////x8AAAAAAAAAAAAAAAAAAADy/x8GBgAAAAAAAAAA/P/////v/8///////////z8AAAAAAAAAAAAAAAAAAAD0/w8ABgAAAAAAAAAA/v////+//4///////////z8AAAAAAAAAAAAAAAAAAADu/wcADgAAAAAAAACA//////8f/x/+/////////x8AAAAAAAAAAAAAAAAAAACI/wcALAAAAAAAAADA//////8//z/g/////////w8AAAAAAAAAAAAAAAAAAACQ/wcACAAAAAAAAADg//////9//r+A/////////wcAAAAAAAAAAAAAAAAAAAAQ/wMAAAAAAAAAAADg//////9//n8cgP///////ycAAAAAAAAAAAAAAAAAAAAA/gMAAAAAAAAAAADw////////+P9/AP///////xEAAAAAAAAAAAAAAAAAAAAA/AMAHQAAAAAAAADw////////+P//APz/f///fxAAAAAAAAAAAAAAAAAAAAAA+AcAYAAAAAAAAAD4////////+f9/APz/B///BgAAAAAAAAAAAAAAAAAAAAAA/AccgAEAAAAAAADw////////8f9/AOD/B/5/AAAAAAAAAAAAAAAAAQAAAAAA+A8eADgAAAAAAADw////////4f8/AOD/Afw/BgAAAAAAAAAAAAAAAAAAAAAA8J8PAPwCAAAAAADw////////4/8fAOD/APw/AgAAAAAAAAAAAAAAAAAAAAAAgP8PAAAAAAAAAADw////////x/8HAOB/APx/ADAAAAAAAAAAAAAAAAAAAAAAAP4PAAAAAAAAAAD4////////h/8BAOA/APz/ADAAAAAAAAAAAAAAAAAAAAAAAID/AAAAAAAAAAD4////////j/8AAMAPAMD/ATAAAAAAAAAAAAAAAAAAAAAAAAD/AQAAAAAAAAD4////////nx8AAMAPAMD/ATAAAAAAAAAAAAAAAAAAAAAAAAD8AAAAAAAAAAD4////////vwcAAIAPAMD/AcAAAAAAAAAAAAAAAAAAAAAAAADgAQAAAAAAAAD4////////fwAAAIAPAMD8AQABAAAAAAAAAAAAAAAAAAAAAADAAAgAAAAAAADw////////f2AAAAAPAID4AUACAAAAAAAAAAAAAAAAAAAAAADAAe9TAAAAAADg/////////34AAAAPAEBwAAgAAAAAAAAAAAAAAAAAAAAAAAAAE+9/AAAAAADA/////////38AAAAXAEAgAAQCAAAAAAAAAAAAAAAAAAAAAAAAz///AAAAAACA/////////z8AAAASAMAAAIACAAAAAAAAAAAAAAAAAAAAAAAAyP//AQAAAACA/////////z8AAAAwAIAAAEAHAAAAAAAAAAAAAAAAAAAAAAAAgP//AwAAAAAA/v///////x8AAAAwAAADAAMBAAAAAAAAAAAAAAAAAAAAAAAAwP//fwAAAAAA/A/+/////x8AAAAAAAAHAAcAAAAAAAAAAAAAAAAAAAAAAAAAgP///wAAAAAAEAD8/////w8AAAAAADAGwAcAAAAAAAAAAAAAAAAAAAAAAAAAgP///wEAAAAAAADA/////wcAAAAAAGAG4AEAAAAAAAAAAAAAAAAAAAAAAAAA4P///wEAAAAAAADA/////wMAAAAAAMAM+AMAAAAAAAAAAAAAAAAAAAAAAAAA4P///wMAAAAAAADg/////wEAAAAAAIAL/gMQAAAAAAAAAAAAAAAAAAAAAAAA8P///wMAAAAAAADg////fwAAAAAAAIAH/vMQAAAAAAAAAAAAAAAAAAAAAAAA8P///wcAAAAAAADg////PwAAAAAAAAAP/gMAAQAAAAAAAAAAAAAAAAAAAAAA+P///38AAAAAAADg////PwAAAAAAAAAO/DmAAwAAAAAAAAAAAAAAAAAAAAAA+P///38BAAAAAADA////HwAAAAAAAAA+/DkA8gAAAAAAAAAAAAAAAAAAAAAA8P////8fAAAAAACA////DwAAAAAAAAA8wChE/gcAAAAAAAAAAAAAAAAAAAAA+P////8/AAAAAACA////BwAAAAAAAAA4AEAA8B8AAAAAAAAAAAAAAAAAAAAA+P//////AQAAAAAA////BwAAAAAAAAAwAEAAxD8NAAAAAAAAAAAAAAAAAAAA+P//////AQAAAAAA////BwAAAAAAAADAAQAAxP+AAAAAAAAAAAAAAAAAAAAA8P//////AQAAAAAA/v//BwAAAAAAAACAHwAAwH8ABAAAAAAAAAAAAAAAAAAA4P//////AQAAAAAA/v//BwAAAAAAAAAAQFYEAMcAAAAAAAAAAAAAAAAAAAAA4P//////AAAAAAAA/v//DwAAAAAAAAAAAAgBAIABMAAAAAAAAAAAAAAAAAAAwP//////AAAAAAAA/v//DwAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAgP////9/AAAAAAAA/P//DwAAAAAAAAAAAAAAAQQAAAAAAAAAAAAAAAAAAAAAgP////8/AAAAAAAA/v//HyAAAAAAAAAAAACAHwQAAAAAAAAAAAAAAAAAAAAAAP////8fAAAAAAAA/v//HyAAAAAAAAAAAADADwwAAAAAAAAAAAAAAAAAAAAAAP////8fAAAAAAAA////HzAAAAAAAAAAAADsDxwAAAAAAAAAAAAAAAAAAAAAAP7///8fAAAAAAAA////DzgAAAAAAAAAAAD/DxwAAAAAAAAAAAAAAAAAAAAAAPj///8fAAAAAAAA////Dz8AAAAAAAAAAAD/Pz4AAAiAAAAAAAAAAAAAAAAAAOD///8fAAAAAAAA////Ax8AAAAAAAAAAMD//z4AAABAAAAAAAAAAAAAAAAAAMD///8PAAAAAAAA////AB8AAAAAAAAAAMD//z8AAAAAAAAAAAAAAAAAAAAAAMD///8PAAAAAAAA/v9/AB8AAAAAAAAAAOD//38AAAAAAAAAAAAAAAAAAAAAAMD///8PAAAAAAAA/v9/AB8AAAAAAAAAAPz///8BAAEAAAAAAAAAAAAAAAAAAMD///8HAAAAAAAA/P9/gA8AAAAAAAAAgP////8BAAIAAAAAAAAAAAAAAAAAAMD///8DAAAAAAAA/P//gA8AAAAAAAAAwP////8DAAAAAAAAAAAAAAAAAAAAAMD//38AAAAAAAAA/P9/AA8AAAAAAAAAwP////8HAAAAAAAAAAAAAAAAAAAAAOD//x8AAAAAAAAA+P9/AAcAAAAAAAAA4P////8PAAAAAAAAAAAAAAAAAAAAAOD//w8AAAAAAAAA+P8fAAIAAAAAAAAAwP////8fAAAAAAAAAAAAAAAAAAAAAOD//wcAAAAAAAAA+P8fAAAAAAAAAAAA4P////8fAAAAAAAAAAAAAAAAAAAAAOD//wcAAAAAAAAA+P8fAAAAAAAAAAAAwP////8fAAAAAAAAAAAAAAAAAAAAAOD//wcAAAAAAAAA8P8PAAAAAAAAAAAAgP////8/AAAAAAAAAAAAAAAAAAAAAOD//wMAAAAAAAAA4P8HAAAAAAAAAAAAgP////8fAAAAAAAAAAAAAAAAAAAAAPD//wMAAAAAAAAA4P8HAAAAAAAAAAAAgP////8fAAAAAAAAAAAAAAAAAAAAAPD//wEAAAAAAAAAwP8DAAAAAAAAAAAAAP////8fAAAAAAAAAAAAAAAAAAAAAOD//wAAAAAAAAAAwP8BAAAAAAAAAAAAAP8D/P8PAAAAAAAAAAAAAAAAAAAAAPD/fwAAAAAAAAAAwH8AAAAAAAAAAAAAgP8A2P8HAAAAAAAAAAAAAAAAAAAAAPD/OwAAAAAAAAAAgAEAAAAAAAAAAAAAAAcA6P8HAAAAAAAAAAAAAAAAAAAAAPj/BwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwP8DAAACAAAAAAAAAAAAAAAAAPj/BwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8DAAAEAAAAAAAAAAAAAAAAAPz/BwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8DAAAIAAAAAAAAAAAAAAAAAPj/AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGgAAAA4AAAAAAAAAAAAAAAAAPg/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAAAAPw/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAPwHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOAAAAALAAAAAAAAAAAAAAAAAPwfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOAAAIADAAAAAAAAAAAAAAAAAPgHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAMABAAAAAAAAAAAAAAAAAPwHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAAAAAP4BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHgAAAAAAAAAAAAAAAAAAP4BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAAAAAP4DAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH4AAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAAAAAAAAAIAfAAAAAAAeeADADwAAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAAAPD/AADA/////////z8AAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAAgP///wH4//////////8DAAAAAAAAAAAAAAAAAAAAADAfAAAAAAAAAAAAAADw8////wP+////////////AwAAAAAAAAAAAAAAAAAAAHA/AAAAAAAAAAA8//P//////+D/////////////HwAAAAAAAAAAAAAAAAAAAP5+AAAAAAAA5v////////////D//////////////38AAAAAAAAAAAAAAAAAAAB+AAAAAACA/////////////////////////////38AAAAAAAAAYAYA4ON/OPh/AAAAAADw/////////////////////////////x8AAAAAAADwv/EXgP////8fAAAAAADw/////////////////////////////wMAAAAAAPz///////////8HAAAAAAD+/////////////////////////////wAAAAAAAPz//////////z8AAAAAAP///////////////////////////////wAAAADA/////////////wEAAAAA8P///////////////////////////////wAAAACH////////////PwAAAPgA/////////////////////////////////wcAAAAcgP//////////fwAAAP4BwP//////////////////////////////HwAAAAAAAP7//////////wf8wD8AwP//////////////////////////////DwAAAAAA/v////////////8HAAD4////////////////////////////////HwAAAAAA+P//////////////4f///////////////////////////////////wAAAAAA/P///////////////////////////////////////////////////x8A3x8AAP7///////////////////////////////////////////////////8/////f///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////";var TA={lat:41.9,lng:12.5,label:"ITALIA"},XA=[{lat:40.7,lng:-74},{lat:-23.5,lng:-46.6},{lat:51.5,lng:-0.1},{lat:25.2,lng:55.3},{lat:19.1,lng:72.9},{lat:1.35,lng:103.8},{lat:35.7,lng:139.7},{lat:-33.9,lng:151.2},{lat:-26.2,lng:28},{lat:6.5,lng:3.4},{lat:43.7,lng:-79.4},{lat:19.4,lng:-99.1},{lat:55.8,lng:37.6},{lat:30,lng:31.2},{lat:-34.6,lng:-58.4},{lat:34,lng:-118.2},{lat:59.3,lng:18.1},{lat:39.9,lng:116.4}],YA={dot:"#d6dbe4",arc:"#4ade80",hub:"#4ade80",glow:"#3b6fd8",rim:"#7c93c4",label:"#a3a3a3"},Z=Math.PI/180,E=64,j=8,BA=null;function jA(){if(BA)return BA;let e=atob(LA),n=new Uint8Array(e.length);for(let A=0;A<e.length;A++)n[A]=e.charCodeAt(A);return BA=n,n}function UA(e,n){let A=jA(),r=Math.min(359,Math.max(0,Math.floor(n+180))),P=Math.min(179,Math.max(0,Math.floor(90-e)))*360+r;return(A[P>>3]&1<<(P&7))!==0}function iA(e,n){let A=e*Z,r=n*Z;return[Math.cos(A)*Math.sin(r),Math.sin(A),Math.cos(A)*Math.cos(r)]}function U(e){let n=document.createElement("canvas");n.width=n.height=1;let A=n.getContext("2d");if(!A)return[255,255,255];A.fillStyle="#fff",A.fillStyle=e,A.fillRect(0,0,1,1);let r=A.getImageData(0,0,1,1).data;return[r[0],r[1],r[2]]}var D=(e,n)=>`rgba(${e[0]},${e[1]},${e[2]},${Math.max(0,Math.min(1,n)).toFixed(3)})`;function NA(e){let n=Math.PI*(3-Math.sqrt(5)),A=[];for(let r=0;r<e;r++){let M=1-2*(r+0.5)/e,P=Math.sqrt(1-M*M),a=r*n,C=Math.cos(a)*P,b=Math.sin(a)*P,h=Math.asin(M)/Z,B=Math.atan2(C,b)/Z;if(UA(h,B))A.push(C,M,b)}return new Float32Array(A)}function _A(e,n){let A=iA(e.lat,e.lng),r=iA(n.lat,n.lng),M=Math.min(1,Math.max(-1,A[0]*r[0]+A[1]*r[1]+A[2]*r[2])),P=Math.acos(M),a=Math.sin(P)||1,C=0.06+0.34*(P/Math.PI),b=new Float32Array((E+1)*3);for(let h=0;h<=E;h++){let B=h/E,N=Math.sin((1-B)*P)/a,F=Math.sin(B*P)/a,_=1+C*Math.sin(Math.PI*B);b[h*3]=(A[0]*N+r[0]*F)*_,b[h*3+1]=(A[1]*N+r[1]*F)*_,b[h*3+2]=(A[2]*N+r[2]*F)*_}return b}function xA(e,n={}){let A=e.getContext("2d");if(!A)return()=>{};let r=n.hub??TA,M=n.destinations??XA,P={...YA,...n.colors},a={dot:U(P.dot),arc:U(P.arc),hub:U(P.hub),glow:U(P.glow),rim:U(P.rim),label:U(P.label)},C=n.scale??0.9,b=n.mobileScale??1.5,h=C,B=n.centerX??0.5,N=n.mobileCenterX??B,F=B,_=n.centerY??0.5,QA=n.interactive??!0,g=n.intensity??1,V=typeof window.matchMedia==="function"&&window.matchMedia("(prefers-reduced-motion: reduce)").matches,kA=V?0:n.autoRotate??0.08,tA=NA(n.dotSamples??26000),sA=tA.length/3,G=new Float32Array(sA*3),PA=Array.from({length:j},()=>new Int32Array(sA)),W=new Int32Array(j),wA=iA(r.lat,r.lng),DA=M.map((t)=>iA(t.lat,t.lng)),gA=M.map((t)=>_A(r,t)),FA=gA.map(()=>new Float32Array((E+1)*3)),GA=M.map((t,c)=>({period:3.6+c*37%17/10,offset:c*53%29/7})),HA=0.42,eA=-r.lng*Z+0.35,v=HA,I=0,z=0,R=!1,fA=0,dA=0,H=0,T=0,q=1,O=0,hA=!0,nA=0,uA=0;function yA(){let t=e.getBoundingClientRect();if(q=Math.min(window.devicePixelRatio||1,2),H=Math.max(1,t.width),T=Math.max(1,t.height),h=H<640?b:C,F=H<640?N:B,e.width=Math.round(H*q),e.height=Math.round(T*q),!O)oA()}function K(t,c,i,x,d){let cA=Math.cos(eA),L=Math.sin(eA),S=Math.cos(v),o=Math.sin(v),l=t*cA+i*L,s=-t*L+i*cA;x[d]=l,x[d+1]=c*S-s*o,x[d+2]=c*o+s*S}let f=new Float32Array(3);function oA(){if(!A)return;A.setTransform(q,0,0,q,0,0),A.clearRect(0,0,H,T);let t=Math.min(H,T)/2*h,c=H*F,i=T*_,x=Math.max(1,t/300)*1.25,d=A.createRadialGradient(c,i,t*0.82,c,i,t*1.28);d.addColorStop(0,D(a.glow,0)),d.addColorStop(0.32,D(a.glow,0.22*g)),d.addColorStop(1,D(a.glow,0)),A.fillStyle=d,A.fillRect(c-t*1.4,i-t*1.4,t*2.8,t*2.8),W.fill(0);for(let o=0;o<sA;o++){let l=o*3;K(tA[l],tA[l+1],tA[l+2],G,l);let s=G[l+2],u;if(s<0)u=0;else u=1+Math.min(j-2,Math.floor(Math.pow(s,0.7)*(j-1)));let Q=W[u];PA[u][Q]=o,W[u]=Q+1}A.fillStyle=D(a.dot,0.07*g),A.beginPath();let cA=PA[0],L=x*0.7;for(let o=0;o<W[0];o++){let l=cA[o]*3;A.rect(c+G[l]*t-L/2,i-G[l+1]*t-L/2,L,L)}A.fill();let S=A.createRadialGradient(c-t*0.3,i-t*0.35,t*0.1,c,i,t);S.addColorStop(0,D(a.glow,0.16*g)),S.addColorStop(0.7,D(a.glow,0.06*g)),S.addColorStop(1,D(a.glow,0.12*g)),A.fillStyle=S,A.beginPath(),A.arc(c,i,t,0,Math.PI*2),A.fill(),A.strokeStyle=D(a.rim,0.35*g),A.lineWidth=1,A.stroke();for(let o=1;o<j;o++){let l=W[o];if(!l)continue;let s=o/(j-1);A.fillStyle=D(a.dot,(0.18+0.72*s)*g);let u=x*(0.65+0.45*s);A.beginPath();let Q=PA[o];for(let J=0;J<l;J++){let lA=Q[J]*3;A.rect(c+G[lA]*t-u/2,i-G[lA+1]*t-u/2,u,u)}A.fill()}A.lineCap="round";for(let o=0;o<gA.length;o++){let l=gA[o],s=FA[o];for(let w=0;w<=E;w++)K(l[w*3],l[w*3+1],l[w*3+2],s,w*3);let u=(w)=>{let m=s[w*3],y=s[w*3+1];return s[w*3+2]>0||m*m+y*y>1},Q=(w,m)=>{let y=!1;for(let p=w;p<=m;p++){if(!u(p)){y=!1;continue}let k=c+s[p*3]*t,bA=i-s[p*3+1]*t;if(!y)A.moveTo(k,bA),y=!0;else A.lineTo(k,bA)}};A.strokeStyle=D(a.arc,0.16*g),A.lineWidth=1,A.beginPath(),Q(0,E),A.stroke();let{period:J,offset:lA}=GA[o],mA=((uA+lA)/J%1+1)%1,aA=0.72;if(V)continue;if(mA<aA){let w=mA/aA,m=1-Math.pow(1-w,2),y=Math.max(0,m-0.32),p=Math.round(m*E),k=Math.round(y*E),bA=6;for(let Y=0;Y<6;Y++){let zA=Math.round(k+(p-k)*Y/6),OA=Math.round(k+(p-k)*(Y+1)/6);if(OA<=zA)continue;A.strokeStyle=D(a.arc,(Y+1)/6*0.95*g),A.lineWidth=0.8+(Y+1)/6*1.2,A.beginPath(),Q(zA,OA),A.stroke()}}else{let w=(mA-aA)/(1-aA),m=DA[o];if(K(m[0],m[1],m[2],f,0),f[2]>0)A.strokeStyle=D(a.arc,(1-w)*0.8*g),A.lineWidth=1,A.beginPath(),A.arc(c+f[0]*t,i-f[1]*t,2+w*12,0,Math.PI*2),A.stroke()}}for(let o=0;o<DA.length;o++){let l=DA[o];if(K(l[0],l[1],l[2],f,0),f[2]<=0)continue;A.fillStyle=D(a.arc,(0.35+0.6*f[2])*g),A.beginPath(),A.arc(c+f[0]*t,i-f[1]*t,2,0,Math.PI*2),A.fill()}if(K(wA[0],wA[1],wA[2],f,0),f[2]>0){let o=c+f[0]*t,l=i-f[1]*t,s=V?0.5:uA%2/2;if(A.strokeStyle=D(a.hub,(1-s)*0.7*g),A.lineWidth=1.2,A.beginPath(),A.arc(o,l,4+s*16,0,Math.PI*2),A.stroke(),A.fillStyle=D(a.hub,g),A.shadowColor=D(a.hub,0.9),A.shadowBlur=12,A.beginPath(),A.arc(o,l,3.5,0,Math.PI*2),A.fill(),A.shadowBlur=0,r.label)A.fillStyle=D(a.label,0.9*f[2]*g),A.font="500 10px ui-monospace, SFMono-Regular, Menlo, monospace",A.textBaseline="middle",A.fillText(r.label.split("").join(" "),o+10,l-10)}}function RA(t){O=0;let c=nA?Math.min((t-nA)/1000,0.05):0.016;if(nA=t,uA+=c,!R){eA+=(kA+I)*c,v+=z*c;let i=Math.exp(-2.5*c);I*=i,z*=i,v+=(HA-v)*(1-Math.exp(-0.8*c))}oA(),X()}function X(){if(O||!hA||document.hidden)return;if(V&&!R&&Math.abs(I)<0.001&&Math.abs(z)<0.001)return;O=requestAnimationFrame(RA)}function MA(){if(O)cancelAnimationFrame(O);O=0,nA=0}let pA=(t)=>{R=!0,fA=t.clientX,dA=t.clientY,I=0,z=0,e.setPointerCapture?.(t.pointerId),e.style.cursor="grabbing",X()},EA=(t)=>{if(!R)return;let c=Math.min(H,T)/2*h||1,i=t.clientX-fA,x=t.clientY-dA;fA=t.clientX,dA=t.clientY;let d=1/c;if(eA+=i*d,v=Math.max(-0.6,Math.min(1.1,v+x*d)),I=i*d/0.016,z=x*d/0.016,V)oA()},rA=(t)=>{if(!R)return;R=!1,I=Math.max(-3,Math.min(3,I)),z=Math.max(-2,Math.min(2,z)),e.releasePointerCapture?.(t.pointerId),e.style.cursor="grab",X()};if(QA)e.style.cursor="grab",e.style.touchAction="pan-y",e.addEventListener("pointerdown",pA),e.addEventListener("pointermove",EA),e.addEventListener("pointerup",rA),e.addEventListener("pointercancel",rA);let CA=new ResizeObserver(yA);CA.observe(e);let vA=new IntersectionObserver((t)=>{if(hA=t[0]?.isIntersecting??!0,hA)X();else MA()});vA.observe(e);let IA=()=>document.hidden?MA():X();return document.addEventListener("visibilitychange",IA),yA(),oA(),X(),()=>{MA(),CA.disconnect(),vA.disconnect(),document.removeEventListener("visibilitychange",IA),e.removeEventListener("pointerdown",pA),e.removeEventListener("pointermove",EA),e.removeEventListener("pointerup",rA),e.removeEventListener("pointercancel",rA)}}window.DottedGlobe={create:xA};var AA=(e,n)=>{let A=parseFloat(e??"");return Number.isFinite(A)?A:n};function SA(){document.querySelectorAll("canvas[data-globe]").forEach((e)=>{if(e.dataset.globeReady)return;e.dataset.globeReady="1";let n=e.dataset,A=AA(n.centerX,0.5);xA(e,{scale:AA(n.scale,0.98),mobileScale:AA(n.mobileScale,1.5),centerX:A,mobileCenterX:AA(n.mobileCenterX,0.5),centerY:AA(n.centerY,0.56)})})}if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",SA);else SA();})();
+(() => {
+    var LA = "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADg/wEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADA/v8/AOD//z8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD+///D/////5//AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPAH/j/+//////8PAAAAgB0AAHgAAAAAAH8AAAAAAAAAAAAAAAAAAAAAAAAAAOD//wP8//////8BAACAfx4AAAAAAAAAAP4AAAAAAAAAAAAAAAAAAAAAAAA4+I73//n///////8AAAAAfwAAAAAAAAAAAAAfAAAAAAAAAAAAAAAAAAAAAOAQACDwP4D///////8BAAAAPAQAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAADzAgPP5H8D//////38AAAAAAAAAAAAA4AEAAAD+DwAAAAAAAAAAAAAAAAAAAIC/g7PfBwAA/v////8AAAAAAAAAAADgBwAAwP//PwAA4B8AAAAAAAAAAAAAAAAMAAB8AgAA+P////8AAAAAAAAAAABwAAAA/P//AwAAAAAAAAAAAAAAAAAAAP8Ahvc5OwAA8P///38AAAAAAAAAAAAcAADg////34cHAAcAAAAAAAAAAAAAgN9/xzf8RwAA4P///z8AAAAAAAAAAAAPAB7g//////8fgD8AAAAAAQAAAAAAAO//B3f8/wsA4P///z8AAAAAAAAAAAAPAG////////8f2f8HAAAAAAD4HwAAAAD4H/D4/38A4P///xMAAAAAAPAHAAAAgN//////////////DwAAAAD+///h/4//H+/Bg/8BwP7//w8AAAAAwP8fAAAAj9///////////////88/A+D///////8DB8TPB/4AAP///wAAAAAA8P//AwDjf77/////////////////DwD////////////vh/kPwP//BwAAAAAA/P//H/P//5//////////////////34H8////////////Afw/gP//AQAQAAAA/v8fH////+///////////////////vD///////////9fAPwYgP8PAOA/AAAA/+N/8P//////////////////////QID4///////////Pw/0DAP8HAMAfAACA//F//v////////////////////8/AAP4///////////BBPAHAP4HAAAAAADg//z///////////////////////9/AID///////////8AQ4ABAPwBAAAAAAD8P/7///////////////////////9fAMD//////////z8AwA8AAPgBAAAAAAD+H/7/////////////////////Of8BAID///z//////z8AwD8AAMABAAAAAAD+P/z///////////////////9/wH8AAAD8MwD//////x8AwH8MAAAAAAAAAAD+P2D///////////////////95cAAAAACAAwD8/////38AwP8eAAAAAAAAgAGcH/D//////////////////wEAOAAAAADADgDA/////38AgP8/AAAAAAAAwANAH/T//////////////////wAAfgAAAAAwAAAA//////8PgP8/AAAAAAAAwAFwD/7/////////////////PwAAfwAAAAAGAAAA//////8/wP//AAAAAAAAwAOwA/7/////////////////DwCAPwAAAIAAAAAA/v//////8///BwAAAAAAOAcgcP//////////////////HwAAHwAAAAAAAACA+P//////4///DwAAAAAAOA74/////////////////////wUADwAAAAAAAAAA8P//////4///DwAAAAAAGD///////////////////////wUAAwAAAAAAAAAA8P//////7///FwAAAAAAAB///////////////////////wUAAgAAAAAAAAAA0P//////////DAAAAAAAgOH//////////////////////w0AAAAAAAAAAAAAYP////////8xLAAAAAAAAPz//////////////////////wwAAAAAAAAAAAAAAP7//////38HfgAAAAAAgP///////////////////////wQAAAAAAAAAAAAAAP3///////8HUAAAAAAAAP7/////////////////////fwQAAAAAAAAAAAAAAP////////+XAAAAAAAAAPz///93/D/+////////////PwwAAAAAAAAAAAAAAP////////9/AAAAAAAAAPj//f9j/g/+////////////HwAAAAAAAAAAAAAAAP////////8MAAAAAAAAAPj/+P8B/Mf/////////////DwQAAAAAAAAAAAAAAP///////z8AAAAAAAAAcPzH8/8A8I//////////////Bx4AAAAAAAAAAAAAAP///////x8AAAAAAAAA+H+Aw/8AwA/+//////////9/AA8AAAAAAAAAAAAAAP///////x8AAAAAAAAA+D8Aj//w4R/8//////////8/AAAAAAAAAAAAAAAAAP///////wMAAAAAAAAA+B8wuE/+/z/+/////////98fAAMAAAAAAAAAAAAAAP///////wMAAAAAAAAA+A8wEMf//x/+/////////0cOAAMAAAAAAAAAAAAAAP7//////wEAAAAAAAAA+A8AAM7//x/8/////////wMOAAEAAAAAAAAAAAAAAP7//////wAAAAAAAAAA+AcABob//z/8/////////zccwAEAAAAAAAAAAAAAAPz//////wAAAAAAAAAAQOB/AAQ2/////////////x8c8AEAAAAAAAAAAAAAAPj//////wAAAAAAAAAAQPx/AAAA/////////////w8Y/gEAAAAAAAAAAAAAAPD/////fwAAAAAAAAAA4P8/AAAA/////////////w+EGwAAAAAAAAAAAAAAAMD/////HwAAAAAAAAAA8P9/AACA/////////////x/AAwAAAAAAAAAAAAAAAID/////DwAAAAAAAAAA+P//BwaA/////////////x/AAAAAAAAAAAAAAAAAAID9////BwAAAAAAAAAA/P//D3+E/////////////z9AAAAAAAAAAAAAAAAAAAD5////BwAAAAAAAAAA/P//f////////////////x8AAAAAAAAAAAAAAAAAAADy/x8GBgAAAAAAAAAA/P/////v/8///////////z8AAAAAAAAAAAAAAAAAAAD0/w8ABgAAAAAAAAAA/v////+//4///////////z8AAAAAAAAAAAAAAAAAAADu/wcADgAAAAAAAACA//////8f/x/+/////////x8AAAAAAAAAAAAAAAAAAACI/wcALAAAAAAAAADA//////8//z/g/////////w8AAAAAAAAAAAAAAAAAAACQ/wcACAAAAAAAAADg//////9//r+A/////////wcAAAAAAAAAAAAAAAAAAAAQ/wMAAAAAAAAAAADg//////9//n8cgP///////ycAAAAAAAAAAAAAAAAAAAAA/gMAAAAAAAAAAADw////////+P9/AP///////xEAAAAAAAAAAAAAAAAAAAAA/AMAHQAAAAAAAADw////////+P//APz/f///fxAAAAAAAAAAAAAAAAAAAAAA+AcAYAAAAAAAAAD4////////+f9/APz/B///BgAAAAAAAAAAAAAAAAAAAAAA/AccgAEAAAAAAADw////////8f9/AOD/B/5/AAAAAAAAAAAAAAAAAQAAAAAA+A8eADgAAAAAAADw////////4f8/AOD/Afw/BgAAAAAAAAAAAAAAAAAAAAAA8J8PAPwCAAAAAADw////////4/8fAOD/APw/AgAAAAAAAAAAAAAAAAAAAAAAgP8PAAAAAAAAAADw////////x/8HAOB/APx/ADAAAAAAAAAAAAAAAAAAAAAAAP4PAAAAAAAAAAD4////////h/8BAOA/APz/ADAAAAAAAAAAAAAAAAAAAAAAAID/AAAAAAAAAAD4////////j/8AAMAPAMD/ATAAAAAAAAAAAAAAAAAAAAAAAAD/AQAAAAAAAAD4////////nx8AAMAPAMD/ATAAAAAAAAAAAAAAAAAAAAAAAAD8AAAAAAAAAAD4////////vwcAAIAPAMD/AcAAAAAAAAAAAAAAAAAAAAAAAADgAQAAAAAAAAD4////////fwAAAIAPAMD8AQABAAAAAAAAAAAAAAAAAAAAAADAAAgAAAAAAADw////////f2AAAAAPAID4AUACAAAAAAAAAAAAAAAAAAAAAADAAe9TAAAAAADg/////////34AAAAPAEBwAAgAAAAAAAAAAAAAAAAAAAAAAAAAE+9/AAAAAADA/////////38AAAAXAEAgAAQCAAAAAAAAAAAAAAAAAAAAAAAAz///AAAAAACA/////////z8AAAASAMAAAIACAAAAAAAAAAAAAAAAAAAAAAAAyP//AQAAAACA/////////z8AAAAwAIAAAEAHAAAAAAAAAAAAAAAAAAAAAAAAgP//AwAAAAAA/v///////x8AAAAwAAADAAMBAAAAAAAAAAAAAAAAAAAAAAAAwP//fwAAAAAA/A/+/////x8AAAAAAAAHAAcAAAAAAAAAAAAAAAAAAAAAAAAAgP///wAAAAAAEAD8/////w8AAAAAADAGwAcAAAAAAAAAAAAAAAAAAAAAAAAAgP///wEAAAAAAADA/////wcAAAAAAGAG4AEAAAAAAAAAAAAAAAAAAAAAAAAA4P///wEAAAAAAADA/////wMAAAAAAMAM+AMAAAAAAAAAAAAAAAAAAAAAAAAA4P///wMAAAAAAADg/////wEAAAAAAIAL/gMQAAAAAAAAAAAAAAAAAAAAAAAA8P///wMAAAAAAADg////fwAAAAAAAIAH/vMQAAAAAAAAAAAAAAAAAAAAAAAA8P///wcAAAAAAADg////PwAAAAAAAAAP/gMAAQAAAAAAAAAAAAAAAAAAAAAA+P///38AAAAAAADg////PwAAAAAAAAAO/DmAAwAAAAAAAAAAAAAAAAAAAAAA+P///38BAAAAAADA////HwAAAAAAAAA+/DkA8gAAAAAAAAAAAAAAAAAAAAAA8P////8fAAAAAACA////DwAAAAAAAAA8wChE/gcAAAAAAAAAAAAAAAAAAAAA+P////8/AAAAAACA////BwAAAAAAAAA4AEAA8B8AAAAAAAAAAAAAAAAAAAAA+P//////AQAAAAAA////BwAAAAAAAAAwAEAAxD8NAAAAAAAAAAAAAAAAAAAA+P//////AQAAAAAA////BwAAAAAAAADAAQAAxP+AAAAAAAAAAAAAAAAAAAAA8P//////AQAAAAAA/v//BwAAAAAAAACAHwAAwH8ABAAAAAAAAAAAAAAAAAAA4P//////AQAAAAAA/v//BwAAAAAAAAAAQFYEAMcAAAAAAAAAAAAAAAAAAAAA4P//////AAAAAAAA/v//DwAAAAAAAAAAAAgBAIABMAAAAAAAAAAAAAAAAAAAwP//////AAAAAAAA/v//DwAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAgP////9/AAAAAAAA/P//DwAAAAAAAAAAAAAAAQQAAAAAAAAAAAAAAAAAAAAAgP////8/AAAAAAAA/v//HyAAAAAAAAAAAACAHwQAAAAAAAAAAAAAAAAAAAAAAP////8fAAAAAAAA/v//HyAAAAAAAAAAAADADwwAAAAAAAAAAAAAAAAAAAAAAP////8fAAAAAAAA////HzAAAAAAAAAAAADsDxwAAAAAAAAAAAAAAAAAAAAAAP7///8fAAAAAAAA////DzgAAAAAAAAAAAD/DxwAAAAAAAAAAAAAAAAAAAAAAPj///8fAAAAAAAA////Dz8AAAAAAAAAAAD/Pz4AAAiAAAAAAAAAAAAAAAAAAOD///8fAAAAAAAA////Ax8AAAAAAAAAAMD//z4AAABAAAAAAAAAAAAAAAAAAMD///8PAAAAAAAA////AB8AAAAAAAAAAMD//z8AAAAAAAAAAAAAAAAAAAAAAMD///8PAAAAAAAA/v9/AB8AAAAAAAAAAOD//38AAAAAAAAAAAAAAAAAAAAAAMD///8PAAAAAAAA/v9/AB8AAAAAAAAAAPz///8BAAEAAAAAAAAAAAAAAAAAAMD///8HAAAAAAAA/P9/gA8AAAAAAAAAgP////8BAAIAAAAAAAAAAAAAAAAAAMD///8DAAAAAAAA/P//gA8AAAAAAAAAwP////8DAAAAAAAAAAAAAAAAAAAAAMD//38AAAAAAAAA/P9/AA8AAAAAAAAAwP////8HAAAAAAAAAAAAAAAAAAAAAOD//x8AAAAAAAAA+P9/AAcAAAAAAAAA4P////8PAAAAAAAAAAAAAAAAAAAAAOD//w8AAAAAAAAA+P8fAAIAAAAAAAAAwP////8fAAAAAAAAAAAAAAAAAAAAAOD//wcAAAAAAAAA+P8fAAAAAAAAAAAA4P////8fAAAAAAAAAAAAAAAAAAAAAOD//wcAAAAAAAAA+P8fAAAAAAAAAAAAwP////8fAAAAAAAAAAAAAAAAAAAAAOD//wcAAAAAAAAA8P8PAAAAAAAAAAAAgP////8/AAAAAAAAAAAAAAAAAAAAAOD//wMAAAAAAAAA4P8HAAAAAAAAAAAAgP////8fAAAAAAAAAAAAAAAAAAAAAPD//wMAAAAAAAAA4P8HAAAAAAAAAAAAgP////8fAAAAAAAAAAAAAAAAAAAAAPD//wEAAAAAAAAAwP8DAAAAAAAAAAAAAP////8fAAAAAAAAAAAAAAAAAAAAAOD//wAAAAAAAAAAwP8BAAAAAAAAAAAAAP8D/P8PAAAAAAAAAAAAAAAAAAAAAPD/fwAAAAAAAAAAwH8AAAAAAAAAAAAAgP8A2P8HAAAAAAAAAAAAAAAAAAAAAPD/OwAAAAAAAAAAgAEAAAAAAAAAAAAAAAcA6P8HAAAAAAAAAAAAAAAAAAAAAPj/BwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwP8DAAACAAAAAAAAAAAAAAAAAPj/BwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8DAAAEAAAAAAAAAAAAAAAAAPz/BwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8DAAAIAAAAAAAAAAAAAAAAAPj/AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGgAAAA4AAAAAAAAAAAAAAAAAPg/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAAAAPw/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAPwHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOAAAAALAAAAAAAAAAAAAAAAAPwfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOAAAIADAAAAAAAAAAAAAAAAAPgHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAMABAAAAAAAAAAAAAAAAAPwHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAAAAAP4BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHgAAAAAAAAAAAAAAAAAAP4BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAAAAAP4DAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH4AAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAAAAAAAAAIAfAAAAAAAeeADADwAAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAAAPD/AADA/////////z8AAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAAgP///wH4//////////8DAAAAAAAAAAAAAAAAAAAAADAfAAAAAAAAAAAAAADw8////wP+////////////AwAAAAAAAAAAAAAAAAAAAHA/AAAAAAAAAAA8//P//////+D/////////////HwAAAAAAAAAAAAAAAAAAAP5+AAAAAAAA5v////////////D//////////////38AAAAAAAAAAAAAAAAAAAB+AAAAAACA/////////////////////////////38AAAAAAAAAYAYA4ON/OPh/AAAAAADw/////////////////////////////x8AAAAAAADwv/EXgP////8fAAAAAADw/////////////////////////////wMAAAAAAPz///////////8HAAAAAAD+/////////////////////////////wAAAAAAAPz//////////z8AAAAAAP///////////////////////////////wAAAADA/////////////wEAAAAA8P///////////////////////////////wAAAACH////////////PwAAAPgA/////////////////////////////////wcAAAAcgP//////////fwAAAP4BwP//////////////////////////////HwAAAAAAAP7//////////wf8wD8AwP//////////////////////////////DwAAAAAA/v////////////8HAAD4////////////////////////////////HwAAAAAA+P//////////////4f///////////////////////////////////wAAAAAA/P///////////////////////////////////////////////////x8A3x8AAP7///////////////////////////////////////////////////8/////f///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////";
+    var TA = {
+            lat: 41.9,
+            lng: 12.5,
+            label: "ITALIA"
+        },
+        XA = [{
+            lat: 40.7,
+            lng: -74
+        }, {
+            lat: -23.5,
+            lng: -46.6
+        }, {
+            lat: 51.5,
+            lng: -0.1
+        }, {
+            lat: 25.2,
+            lng: 55.3
+        }, {
+            lat: 19.1,
+            lng: 72.9
+        }, {
+            lat: 1.35,
+            lng: 103.8
+        }, {
+            lat: 35.7,
+            lng: 139.7
+        }, {
+            lat: -33.9,
+            lng: 151.2
+        }, {
+            lat: -26.2,
+            lng: 28
+        }, {
+            lat: 6.5,
+            lng: 3.4
+        }, {
+            lat: 43.7,
+            lng: -79.4
+        }, {
+            lat: 19.4,
+            lng: -99.1
+        }, {
+            lat: 55.8,
+            lng: 37.6
+        }, {
+            lat: 30,
+            lng: 31.2
+        }, {
+            lat: -34.6,
+            lng: -58.4
+        }, {
+            lat: 34,
+            lng: -118.2
+        }, {
+            lat: 59.3,
+            lng: 18.1
+        }, {
+            lat: 39.9,
+            lng: 116.4
+        }],
+        YA = {
+            dot: "#d6dbe4",
+            arc: "#4ade80",
+            hub: "#4ade80",
+            glow: "#3b6fd8",
+            rim: "#7c93c4",
+            label: "#a3a3a3"
+        },
+        Z = Math.PI / 180,
+        E = 64,
+        j = 8,
+        BA = null;
+
+    function jA() {
+        if (BA) return BA;
+        let e = atob(LA),
+            n = new Uint8Array(e.length);
+        for (let A = 0; A < e.length; A++) n[A] = e.charCodeAt(A);
+        return BA = n, n
+    }
+
+    function UA(e, n) {
+        let A = jA(),
+            r = Math.min(359, Math.max(0, Math.floor(n + 180))),
+            P = Math.min(179, Math.max(0, Math.floor(90 - e))) * 360 + r;
+        return (A[P >> 3] & 1 << (P & 7)) !== 0
+    }
+
+    function iA(e, n) {
+        let A = e * Z,
+            r = n * Z;
+        return [Math.cos(A) * Math.sin(r), Math.sin(A), Math.cos(A) * Math.cos(r)]
+    }
+
+    function U(e) {
+        let n = document.createElement("canvas");
+        n.width = n.height = 1;
+        let A = n.getContext("2d");
+        if (!A) return [255, 255, 255];
+        A.fillStyle = "#fff", A.fillStyle = e, A.fillRect(0, 0, 1, 1);
+        let r = A.getImageData(0, 0, 1, 1).data;
+        return [r[0], r[1], r[2]]
+    }
+    var D = (e, n) => `rgba(${e[0]},${e[1]},${e[2]},${Math.max(0,Math.min(1,n)).toFixed(3)})`;
+
+    function NA(e) {
+        let n = Math.PI * (3 - Math.sqrt(5)),
+            A = [];
+        for (let r = 0; r < e; r++) {
+            let M = 1 - 2 * (r + 0.5) / e,
+                P = Math.sqrt(1 - M * M),
+                a = r * n,
+                C = Math.cos(a) * P,
+                b = Math.sin(a) * P,
+                h = Math.asin(M) / Z,
+                B = Math.atan2(C, b) / Z;
+            if (UA(h, B)) A.push(C, M, b)
+        }
+        return new Float32Array(A)
+    }
+
+    function _A(e, n) {
+        let A = iA(e.lat, e.lng),
+            r = iA(n.lat, n.lng),
+            M = Math.min(1, Math.max(-1, A[0] * r[0] + A[1] * r[1] + A[2] * r[2])),
+            P = Math.acos(M),
+            a = Math.sin(P) || 1,
+            C = 0.06 + 0.34 * (P / Math.PI),
+            b = new Float32Array((E + 1) * 3);
+        for (let h = 0; h <= E; h++) {
+            let B = h / E,
+                N = Math.sin((1 - B) * P) / a,
+                F = Math.sin(B * P) / a,
+                _ = 1 + C * Math.sin(Math.PI * B);
+            b[h * 3] = (A[0] * N + r[0] * F) * _, b[h * 3 + 1] = (A[1] * N + r[1] * F) * _, b[h * 3 + 2] = (A[2] * N + r[2] * F) * _
+        }
+        return b
+    }
+
+    function xA(e, n = {}) {
+        let A = e.getContext("2d");
+        if (!A) return () => {};
+        let r = n.hub ?? TA,
+            M = n.destinations ?? XA,
+            P = {
+                ...YA,
+                ...n.colors
+            },
+            a = {
+                dot: U(P.dot),
+                arc: U(P.arc),
+                hub: U(P.hub),
+                glow: U(P.glow),
+                rim: U(P.rim),
+                label: U(P.label)
+            },
+            C = n.scale ?? 0.9,
+            b = n.mobileScale ?? 1.5,
+            h = C,
+            B = n.centerX ?? 0.5,
+            N = n.mobileCenterX ?? B,
+            F = B,
+            _ = n.centerY ?? 0.5,
+            QA = n.interactive ?? !0,
+            g = n.intensity ?? 1,
+            V = typeof window.matchMedia === "function" && window.matchMedia("(prefers-reduced-motion: reduce)").matches,
+            kA = V ? 0 : n.autoRotate ?? 0.08,
+            tA = NA(n.dotSamples ?? 26000),
+            sA = tA.length / 3,
+            G = new Float32Array(sA * 3),
+            PA = Array.from({
+                length: j
+            }, () => new Int32Array(sA)),
+            W = new Int32Array(j),
+            wA = iA(r.lat, r.lng),
+            DA = M.map((t) => iA(t.lat, t.lng)),
+            gA = M.map((t) => _A(r, t)),
+            FA = gA.map(() => new Float32Array((E + 1) * 3)),
+            GA = M.map((t, c) => ({
+                period: 3.6 + c * 37 % 17 / 10,
+                offset: c * 53 % 29 / 7
+            })),
+            HA = 0.42,
+            eA = -r.lng * Z + 0.35,
+            v = HA,
+            I = 0,
+            z = 0,
+            R = !1,
+            fA = 0,
+            dA = 0,
+            H = 0,
+            T = 0,
+            q = 1,
+            O = 0,
+            hA = !0,
+            nA = 0,
+            uA = 0;
+
+        function yA() {
+            let t = e.getBoundingClientRect();
+            if (q = Math.min(window.devicePixelRatio || 1, 2), H = Math.max(1, t.width), T = Math.max(1, t.height), h = H < 640 ? b : C, F = H < 640 ? N : B, e.width = Math.round(H * q), e.height = Math.round(T * q), !O) oA()
+        }
+
+        function K(t, c, i, x, d) {
+            let cA = Math.cos(eA),
+                L = Math.sin(eA),
+                S = Math.cos(v),
+                o = Math.sin(v),
+                l = t * cA + i * L,
+                s = -t * L + i * cA;
+            x[d] = l, x[d + 1] = c * S - s * o, x[d + 2] = c * o + s * S
+        }
+        let f = new Float32Array(3);
+
+        function oA() {
+            if (!A) return;
+            A.setTransform(q, 0, 0, q, 0, 0), A.clearRect(0, 0, H, T);
+            let t = Math.min(H, T) / 2 * h,
+                c = H * F,
+                i = T * _,
+                x = Math.max(1, t / 300) * 1.25,
+                d = A.createRadialGradient(c, i, t * 0.82, c, i, t * 1.28);
+            d.addColorStop(0, D(a.glow, 0)), d.addColorStop(0.32, D(a.glow, 0.22 * g)), d.addColorStop(1, D(a.glow, 0)), A.fillStyle = d, A.fillRect(c - t * 1.4, i - t * 1.4, t * 2.8, t * 2.8), W.fill(0);
+            for (let o = 0; o < sA; o++) {
+                let l = o * 3;
+                K(tA[l], tA[l + 1], tA[l + 2], G, l);
+                let s = G[l + 2],
+                    u;
+                if (s < 0) u = 0;
+                else u = 1 + Math.min(j - 2, Math.floor(Math.pow(s, 0.7) * (j - 1)));
+                let Q = W[u];
+                PA[u][Q] = o, W[u] = Q + 1
+            }
+            A.fillStyle = D(a.dot, 0.07 * g), A.beginPath();
+            let cA = PA[0],
+                L = x * 0.7;
+            for (let o = 0; o < W[0]; o++) {
+                let l = cA[o] * 3;
+                A.rect(c + G[l] * t - L / 2, i - G[l + 1] * t - L / 2, L, L)
+            }
+            A.fill();
+            let S = A.createRadialGradient(c - t * 0.3, i - t * 0.35, t * 0.1, c, i, t);
+            S.addColorStop(0, D(a.glow, 0.16 * g)), S.addColorStop(0.7, D(a.glow, 0.06 * g)), S.addColorStop(1, D(a.glow, 0.12 * g)), A.fillStyle = S, A.beginPath(), A.arc(c, i, t, 0, Math.PI * 2), A.fill(), A.strokeStyle = D(a.rim, 0.35 * g), A.lineWidth = 1, A.stroke();
+            for (let o = 1; o < j; o++) {
+                let l = W[o];
+                if (!l) continue;
+                let s = o / (j - 1);
+                A.fillStyle = D(a.dot, (0.18 + 0.72 * s) * g);
+                let u = x * (0.65 + 0.45 * s);
+                A.beginPath();
+                let Q = PA[o];
+                for (let J = 0; J < l; J++) {
+                    let lA = Q[J] * 3;
+                    A.rect(c + G[lA] * t - u / 2, i - G[lA + 1] * t - u / 2, u, u)
+                }
+                A.fill()
+            }
+            A.lineCap = "round";
+            for (let o = 0; o < gA.length; o++) {
+                let l = gA[o],
+                    s = FA[o];
+                for (let w = 0; w <= E; w++) K(l[w * 3], l[w * 3 + 1], l[w * 3 + 2], s, w * 3);
+                let u = (w) => {
+                        let m = s[w * 3],
+                            y = s[w * 3 + 1];
+                        return s[w * 3 + 2] > 0 || m * m + y * y > 1
+                    },
+                    Q = (w, m) => {
+                        let y = !1;
+                        for (let p = w; p <= m; p++) {
+                            if (!u(p)) {
+                                y = !1;
+                                continue
+                            }
+                            let k = c + s[p * 3] * t,
+                                bA = i - s[p * 3 + 1] * t;
+                            if (!y) A.moveTo(k, bA), y = !0;
+                            else A.lineTo(k, bA)
+                        }
+                    };
+                A.strokeStyle = D(a.arc, 0.16 * g), A.lineWidth = 1, A.beginPath(), Q(0, E), A.stroke();
+                let {
+                    period: J,
+                    offset: lA
+                } = GA[o], mA = ((uA + lA) / J % 1 + 1) % 1, aA = 0.72;
+                if (V) continue;
+                if (mA < aA) {
+                    let w = mA / aA,
+                        m = 1 - Math.pow(1 - w, 2),
+                        y = Math.max(0, m - 0.32),
+                        p = Math.round(m * E),
+                        k = Math.round(y * E),
+                        bA = 6;
+                    for (let Y = 0; Y < 6; Y++) {
+                        let zA = Math.round(k + (p - k) * Y / 6),
+                            OA = Math.round(k + (p - k) * (Y + 1) / 6);
+                        if (OA <= zA) continue;
+                        A.strokeStyle = D(a.arc, (Y + 1) / 6 * 0.95 * g), A.lineWidth = 0.8 + (Y + 1) / 6 * 1.2, A.beginPath(), Q(zA, OA), A.stroke()
+                    }
+                } else {
+                    let w = (mA - aA) / (1 - aA),
+                        m = DA[o];
+                    if (K(m[0], m[1], m[2], f, 0), f[2] > 0) A.strokeStyle = D(a.arc, (1 - w) * 0.8 * g), A.lineWidth = 1, A.beginPath(), A.arc(c + f[0] * t, i - f[1] * t, 2 + w * 12, 0, Math.PI * 2), A.stroke()
+                }
+            }
+            for (let o = 0; o < DA.length; o++) {
+                let l = DA[o];
+                if (K(l[0], l[1], l[2], f, 0), f[2] <= 0) continue;
+                A.fillStyle = D(a.arc, (0.35 + 0.6 * f[2]) * g), A.beginPath(), A.arc(c + f[0] * t, i - f[1] * t, 2, 0, Math.PI * 2), A.fill()
+            }
+            if (K(wA[0], wA[1], wA[2], f, 0), f[2] > 0) {
+                let o = c + f[0] * t,
+                    l = i - f[1] * t,
+                    s = V ? 0.5 : uA % 2 / 2;
+                if (A.strokeStyle = D(a.hub, (1 - s) * 0.7 * g), A.lineWidth = 1.2, A.beginPath(), A.arc(o, l, 4 + s * 16, 0, Math.PI * 2), A.stroke(), A.fillStyle = D(a.hub, g), A.shadowColor = D(a.hub, 0.9), A.shadowBlur = 12, A.beginPath(), A.arc(o, l, 3.5, 0, Math.PI * 2), A.fill(), A.shadowBlur = 0, r.label) A.fillStyle = D(a.label, 0.9 * f[2] * g), A.font = "500 10px ui-monospace, SFMono-Regular, Menlo, monospace", A.textBaseline = "middle", A.fillText(r.label.split("").join(" "), o + 10, l - 10)
+            }
+        }
+
+        function RA(t) {
+            O = 0;
+            let c = nA ? Math.min((t - nA) / 1000, 0.05) : 0.016;
+            if (nA = t, uA += c, !R) {
+                eA += (kA + I) * c, v += z * c;
+                let i = Math.exp(-2.5 * c);
+                I *= i, z *= i, v += (HA - v) * (1 - Math.exp(-0.8 * c))
+            }
+            oA(), X()
+        }
+
+        function X() {
+            if (O || !hA || document.hidden) return;
+            if (V && !R && Math.abs(I) < 0.001 && Math.abs(z) < 0.001) return;
+            O = requestAnimationFrame(RA)
+        }
+
+        function MA() {
+            if (O) cancelAnimationFrame(O);
+            O = 0, nA = 0
+        }
+        let pA = (t) => {
+                R = !0, fA = t.clientX, dA = t.clientY, I = 0, z = 0, e.setPointerCapture?.(t.pointerId), e.style.cursor = "grabbing", X()
+            },
+            EA = (t) => {
+                if (!R) return;
+                let c = Math.min(H, T) / 2 * h || 1,
+                    i = t.clientX - fA,
+                    x = t.clientY - dA;
+                fA = t.clientX, dA = t.clientY;
+                let d = 1 / c;
+                if (eA += i * d, v = Math.max(-0.6, Math.min(1.1, v + x * d)), I = i * d / 0.016, z = x * d / 0.016, V) oA()
+            },
+            rA = (t) => {
+                if (!R) return;
+                R = !1, I = Math.max(-3, Math.min(3, I)), z = Math.max(-2, Math.min(2, z)), e.releasePointerCapture?.(t.pointerId), e.style.cursor = "grab", X()
+            };
+        if (QA) e.style.cursor = "grab", e.style.touchAction = "pan-y", e.addEventListener("pointerdown", pA), e.addEventListener("pointermove", EA), e.addEventListener("pointerup", rA), e.addEventListener("pointercancel", rA);
+        let CA = new ResizeObserver(yA);
+        CA.observe(e);
+        let vA = new IntersectionObserver((t) => {
+            if (hA = t[0]?.isIntersecting ?? !0, hA) X();
+            else MA()
+        });
+        vA.observe(e);
+        let IA = () => document.hidden ? MA() : X();
+        return document.addEventListener("visibilitychange", IA), yA(), oA(), X(), () => {
+            MA(), CA.disconnect(), vA.disconnect(), document.removeEventListener("visibilitychange", IA), e.removeEventListener("pointerdown", pA), e.removeEventListener("pointermove", EA), e.removeEventListener("pointerup", rA), e.removeEventListener("pointercancel", rA)
+        }
+    }
+    window.DottedGlobe = {
+        create: xA
+    };
+    var AA = (e, n) => {
+        let A = parseFloat(e ?? "");
+        return Number.isFinite(A) ? A : n
+    };
+
+    function SA() {
+        document.querySelectorAll("canvas[data-globe]").forEach((e) => {
+            if (e.dataset.globeReady) return;
+            e.dataset.globeReady = "1";
+            let n = e.dataset,
+                A = AA(n.centerX, 0.5);
+            xA(e, {
+                scale: AA(n.scale, 0.98),
+                mobileScale: AA(n.mobileScale, 1.5),
+                centerX: A,
+                mobileCenterX: AA(n.mobileCenterX, 0.5),
+                centerY: AA(n.centerY, 0.56)
+            })
+        })
+    }
+    if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", SA);
+    else SA();
+})();
